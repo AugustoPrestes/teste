@@ -11,15 +11,21 @@ ul{
     padding: 0px!important;
 }
 
+html{
+    box-sizing: border-box;
+    background: #ffffff
+}
+
 /*
 Estilizando o SIte
 */
 
 .menu-principal{
-    top: 0;
+    top: ;
     width: 100%;
     background-color: blueviolet;
-    height: 60px;
+    height: 80px;
+    margin-top: -18px ;
 }
 
 main, .comtent{
@@ -44,10 +50,11 @@ main, .comtent{
     width: 80%;
 }
 
-.img-logo{
-    height: 55px;
-    padding: 2px;
-} 
+.img-logo {
+    height: 60px;
+    padding: 11px;
+    margin-left: -10px;
+}
 
 .redes-sociais ul li{
     margin-left: 5px;
@@ -55,14 +62,16 @@ main, .comtent{
     padding-top: 11px;
 }
 
-.face{
+.face {
     height: 30px;
-    padding: 2px;
+    padding: 0px;
+    margin: 10px;
 }
 
-.insta{
+.insta {
     height: 30px;
-    padding: 2px;
+    padding: 0px;
+    margin: 9px;
 }
 
 .header-2{
@@ -108,7 +117,8 @@ main, .comtent{
 .busca input{
     background-image: ('../img/lupa-pesquisa.png');
     height: 26px;
-    margin-top: 8px;
+    margin-top: 5.5px;
+    margin-left: 10px;
     padding-left: 10px;
     width: 190px;
 }

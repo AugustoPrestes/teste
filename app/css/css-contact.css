@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #cdf6eb;
+    margin: 20px auto 30px;
+}
+
+.grid-esquerda{
+    background: pink;
+    height: 800px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-centro{
+    border: 1px solid #979494;
+    background: yellow;
+    height: 800px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+}
+
+.grid-direita{
+    background: red;
+    height: 800px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
