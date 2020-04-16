@@ -21,7 +21,6 @@ Estilizando o SIte
 */
 
 .menu-principal{
-    top: ;
     width: 100%;
     background-color: blueviolet;
     height: 80px;
@@ -42,6 +41,7 @@ main, .comtent{
 .menu-urls{
     height: 50px;
     border: 3px solid #EEE9E9; 
+    border-radius: 15px;
 }
 
 .logo{
@@ -91,6 +91,10 @@ main, .comtent{
 
 .menu ul li a:hover {
     color: #00bac6;
+}
+
+.menu ul li:hover {
+    transform: scale(1.2);
 }
 
 .menu ul li{
