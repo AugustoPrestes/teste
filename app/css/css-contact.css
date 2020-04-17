@@ -1,3 +1,5 @@
+/* ***********GRID DO CONTAINER*********** */
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -5,32 +7,43 @@
     margin: 20px auto 30px;
 }
 
+/* *****GRID DA ESQUERDA***** */
 .grid-esquerda{
     background: white;
     height: 800px;
     grid-column-start: 1;
     grid-column-end: 2;
 }
+/* *****CONTEUDO DO GRID DA ESQUERDA***** */
 
-.grid-centro{
+
+
+/* *****GRID CENTRAL***** */
+.grid-centro{   
     border: 1px solid #979494;
     background: #ff3772;
     height: 800px;
     grid-column-start: 2;
     grid-column-end: 5;
+}
 
+/* *****CONTEUDO DO GRID CENTRAL***** */
+.boas-vindas{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: white;
+    margin-top: 250px;
 }
 
 .contatos{
     position: relative;
     width: 450px;
-    margin: 260px auto 0;
+    margin: 20px auto 0;
     padding: 10px;
     box-sizing: border-box;
     border: 1.5px solid gray;
     border-radius: 15px;
-
-    
 }
 
 .contatos ul li{
@@ -74,9 +87,12 @@
     background: #ff3772;
 }
 
+/* *****GRID DA DIREITA***** */
 .grid-direita{
     background: white;
     height: 800px;
     grid-column-start: 5;
     grid-column-end: 6;
 }
+
+/* *****CONTEUDO DO GRID DA DIREITRA***** */

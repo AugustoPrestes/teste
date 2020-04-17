@@ -13,7 +13,8 @@ ul{
 
 html{
     box-sizing: border-box;
-    background: #ffffff
+    background: #ffffff;
+    background-image: "./img/sile-1.jpg";
 }
 
 /*
@@ -39,7 +40,7 @@ main, .comtent{
 }
 
 .menu-urls{
-    height: 50px;
+    height: 55px;
     border: 3px solid #EEE9E9; 
     border-radius: 15px;
 }
@@ -85,7 +86,7 @@ main, .comtent{
 }
 
 .menu ul li:hover {
-    border-bottom: 3px solid #00bac6;
+    border-bottom: 2px solid #00bac6;
 
 }
 
@@ -116,15 +117,17 @@ main, .comtent{
     text-align: center;
     width: 40%; 
     float: right;
+    border-radius: 300px;
 }
 
 .busca input{
-    background-image: ('../img/lupa-pesquisa.png');
     height: 26px;
     margin-top: 5.5px;
     margin-left: 10px;
     padding-left: 10px;
     width: 190px;
+    border: 2px solid #CDC9C9;
+    border-radius: 11px;
 }
 
 
