@@ -46,6 +46,7 @@ main, .comtent{
 }
 
 .logo{
+    position: relative;
     float: left;
     padding: 16 ;
     width: 80%;
