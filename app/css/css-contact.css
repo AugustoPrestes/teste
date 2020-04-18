@@ -3,7 +3,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-color: #cdf6eb;
+    background-color: #ffffff;
     margin: 20px auto 30px;
 }
 

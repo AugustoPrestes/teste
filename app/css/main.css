@@ -11,6 +11,7 @@ ul{
     padding: 0px!important;
 }
 
+
 html{
     box-sizing: border-box;
     background: #ffffff;
@@ -34,9 +35,11 @@ main, .comtent{
     position: relative;
 }
 
-.col-100{
-    width: 100%;
-    float: left; 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #ffffff;
+    margin: 20px auto 30px;
 }
 
 .menu-urls{
@@ -49,7 +52,8 @@ main, .comtent{
     position: relative;
     float: left;
     padding: 16 ;
-    width: 80%;
+    width: 70%;
+    height: 80px;
 }
 
 .img-logo {
@@ -62,6 +66,13 @@ main, .comtent{
     margin-left: 5px;
     display: inline-block;
     padding-top: 11px;
+}
+
+.redes-sociais ul{
+    width: 1000px;
+    height: 80px;
+    padding: 10px;
+
 }
 
 .face {
@@ -198,4 +209,34 @@ li.slick-active button{
 
 .slick-initialized{
     overflow: hidden;    
+}
+
+/* ***********GRID DO CONTAINER*********** */
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #ffffff;
+    margin: 20px auto 30px;
+    margin-top: 61px;
+}
+
+/* *****GRID DA ESQUERDA***** */
+.grid-esquerda{
+    background: white;
+    height: 800px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+/* *****CONTEUDO DO GRID DA ESQUERDA***** */
+
+
+
+/* *****GRID CENTRAL***** */
+.grid-centro{   
+    border: 1px solid #979494;
+    background: #ff3772;
+    height: 800px;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
